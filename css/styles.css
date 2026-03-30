@@ -58,7 +58,7 @@ nav li:nth-child(2) {
 
 /* Exercice 09 */
 
-.exercice09 li:last-child{
+.exercice09 li:nth-last-child(2){
   background-color: red;
 }
 
@@ -128,7 +128,9 @@ p::selection{
 
 /* Exercice 18 */
 
-
+.word .char:last-child{
+  color: #640101;
+}
 
 /*-------------------------------------------
 -
